@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-
+const url = 'https://telegra.ph/file/9ed485a4d4c747fee6e5b.png'
+const url2 = 'https://telegra.ph/file/891ff9329234385eb6e7f.png'
 const Processor = () => (
   <>
     <BoardWrapper>
-      <Board></Board>
+      <Board src={url} />
     </BoardWrapper>
   </>
 )
@@ -18,10 +19,8 @@ const BoardWrapper = styled.div`
   justify-content: center;
 `
 
-const Board = styled.div`
-  background-color: green;
-  width: 95%;
-  height: 50%;
+const Board = styled.img`
+  width: 720px;
 `
 
 export default Processor

@@ -8,7 +8,6 @@ const config = merge(common, {
   devServer: {
     historyApiFallback: true,
     port: 3003,
-    disableHostCheck: true,
   },
 })
 

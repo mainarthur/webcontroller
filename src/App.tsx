@@ -64,7 +64,7 @@ const App = () => {
               centered
               aria-label="full width tabs"
             >
-              <Tab label="Editor" />
+              <Tab label="♂GachiScript♂ Editor" />
               <Tab label="Preview" />
             </Tabs>
           </Route>

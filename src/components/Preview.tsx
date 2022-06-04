@@ -73,8 +73,8 @@ const Preview = () => {
         </Alert>
       </Snackbar>
       <FabWrapper onClick={handleFabToggle} isRunning={isRunning}>
-        {!isRunning && <PlayArrowIcon />}
-        {isRunning && <StopIcon />}
+        {!isRunning ? <PlayArrowIcon /> : null}
+        {isRunning ? <StopIcon /> : null}
       </FabWrapper>
     </>
   )
